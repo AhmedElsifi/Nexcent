@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+::-moz-selection {
+  background-color: rgb(168, 214, 170, 0.05);
+  color: #000000;
+}
+
+::selection {
+  background-color: rgb(168, 214, 170, 0.5);
+  color: #000000;
+}
+
+h1 {
+  color: #4d4d4d;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #4d4d4d;
+}
+
+h3 {
+  color: #4d4d4d;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+p {
+  color: #949494;
+  font-size: 14px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  background-color: #f5f7fa;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-content {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+
+.nav-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #18191f;
+}
+
+.account-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+#login {
+  text-decoration: none;
+  color: #52af56;
+  width: 77px;
+  padding: 10px 20px;
+}
+
+#sign-up {
+  text-decoration: none;
+  background-color: #52af56;
+  border: #52af56 solid 1px;
+  color: white;
+  border-radius: 6px;
+  width: fit-content;
+  height: 40px;
+  padding: 10px 20px;
+  transition-duration: 0.5s;
+}
+
+#sign-up:hover {
+  color: #52af56;
+  border: #52af56 solid 1px;
+  background-color: white;
+}
+
+.container {
+  width: 1150px;
+  margin: auto;
+}
+
+main {
+  background-color: #f5f7fa;
+}
+
+.main-content {
+  width: 1150px;
+  height: 600px;
+  display: flex;
+  gap: 104px;
+  align-items: center;
+  margin: auto;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+span {
+  color: #52af56;
+}
+
+#register {
+  text-decoration: none;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 4px;
+  background-color: #52af56;
+  width: fit-content;
+  border: #52af56 solid 1px;
+  transition-duration: 0.5s;
+}
+
+#register:hover {
+  color: #52af56;
+  border: #52af56 solid 1px;
+  background-color: white;
+}
+
+.our-clients {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.clients {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clients img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  transition-duration: 0.5s;
+}
+
+.clients img:hover {
+  scale: 1.01;
+  transform: translateY(-10px);
+  transform: rotate(360deg);
+}
+
+.service {
+  text-align: center;
+}
+
+.services {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0px;
+}
+
+.service-card {
+  width: 300px;
+  height: 260px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 4px 0px #abbed133;
+  border-radius: 8px;
+  padding: 24px 32px;
+  transition-duration: 0.5s;
+}
+
+.service-card:hover {
+  scale: 1.1;
+}
+
+.service-card img {
+  width: 65px;
+  height: 56px;
+}
+
+.service-card p {
+  color: #949494;
+  font-size: 14px;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 48px auto;
+}
+
+.feature-text {
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.learn-more {
+  text-decoration: none;
+  background-color: #52af56;
+  border: #52af56 solid 1px;
+  color: white;
+  border-radius: 6px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.learn-more:hover {
+  color: #52af56;
+  border: #52af56 solid 1px;
+  background-color: white;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 288px;
+  margin: 80px 0px;
+}
+
+.product-main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product-statistics {
+  width: 540px;
+  height: 160px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 30px;
+}
+
+.statistic {
+  width: 255px;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  gap: 16px;
+  align-items: center;
+  transition-duration: 0.5s;
+}
+
+.statistic:hover {
+  scale: 1.05;
+  transform: translateY(-10px);
+}
+
+.footer-guide {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 0px;
+}
+
+.footer-guide img {
+  width: 480px;
+}
+
+.footer-guide-content {
+  width: 660px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 78px;
+  margin: 80px 0px;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.author {
+  color: #52af56;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.organization {
+  font-size: 16px;
+}
+
+.customers {
+  display: flex;
+  gap: 32px;
+}
+
+.customers-logos {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customers-logos img {
+  width: 48px;
+  height: auto;
+  transition-duration: 0.5s;
+}
+
+.customers-logos img:hover {
+  scale: 1.05;
+  transform: translateY(-10px);
+}
+
+/* ============================= */
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.socials i {
+  height: 32px;
+  width: 32px;
+  font-size: 18px;
+  color: white;
+  background-color: #3c464c;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+}
+
+.socials a {
+  text-decoration: none;
+}
+
+.socials i:hover {
+  background-color: white;
+  color: #3c464c;
+}
+
+.fa-facebook-f:hover {
+  color: #1877f2;
+}
+
+.fa-instagram:hover {
+  color: #e4405f;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-linkedin-in:hover {
+  color: #0077b5;
+}

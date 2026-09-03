@@ -1,10 +1,10 @@
 # Nexcent Landing Page
 
-A modern, responsive landing page for a membership management platform, built with pure HTML and CSS.
+A modern landing page for a membership management platform, built with pure HTML and CSS.
 
 ## Overview
 
-Nexcent is a fully responsive landing page showcasing membership management solutions for organizations, associations, and clubs. The design features a clean, professional layout with smooth hover animations and a cohesive green-themed color scheme.
+Nexcent is a landing page showcasing membership management solutions for organizations, associations, and clubs. The design features a clean, professional layout with smooth hover animations and a cohesive green-themed color scheme.
 
 ## Sections
 
